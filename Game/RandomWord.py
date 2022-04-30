@@ -22,18 +22,16 @@
 #  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #  SOFTWARE.
 
-import random
 
-WordList = ["quote", "crop", "bell", "facade", "maid", "discourage", "incident", "steel", "operation", "low", "glow",
-            "feeling", "seminar", "vein", "hike",
-            "iron", "paper", "conversation", "carbon", "order", "cutting", "liability", "swallow", "rebel", "kidney",
-            "solution", "tradition", "sign",
-            "stress", "inside", "judicial", "meat", "appetite", "analysis", "poison", "scream", "address", "afford",
-            "will", "color", "wound", "occasion",
-            "manual", "plain", "aspect", "variable", "restrict", "cabin", "destruction", "art"]
+from random_words import RandomWords
 
 
 def RandomElement():
     """
-    :return: Random Element of WordList List"""
-    return random.choice(WordList)
+    Get a random word from the English language. The random word is selected from a list using the
+    :func:`~RandomWords.random_word()`
+    return: the random word
+    """
+    rw = RandomWords()
+    word = rw.random_word()
+    return word

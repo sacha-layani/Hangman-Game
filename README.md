@@ -6,11 +6,14 @@
 <p><strong>Author :</strong> <code>Sacha LAYANI</code></p>
 <p><strong>Date :</strong> <code>April 2022</code></p>
 
-## How start the Game ?
-<p>To start the game, you must run the <code>hangmanGame.py</code> file.</p>
+## News
+<p>Now you can't edit the <strong>RandomWord List</strong> on the <code><strong>RandomWord.py</strong></code> file because we added the <strong>RandomWords module</strong> which can pick at one's behest a <strong>random word.</strong></p>
 
-## How custom words of the game ?
-<p>To modify the list of words in the game, you must access the file <strong>RandomWord.py</strong></p>
+## How start the Game ?
+<p>To start the game, you must run the <code>hangmanGame.py</code> file and install the <strong>RandomWords module</strong>.</p>
+
+### How install the RandomWords module ?
+<code>pip install random-word</code>
 
 ## How Git Clone the project
 <code>git clone https://github.com/sacha-layani/Hangman-Game.git </code>
